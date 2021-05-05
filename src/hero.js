@@ -2,18 +2,14 @@ import "./hero.css";
 
 function Hero() {
     return (
-      <div classname="Main">
-       <div classname="navbar">
-        <span>L O G O</span>
-        <div classname="nav_ele">
-          <div classname="elements">Home</div>
-          <div classname="elements">About</div>
-          <div classname="elements">Invest</div>
-          <div classname="elements">Help</div>
-          <div classname="elements">Contact</div>
-          <button>Login</button>
-        </div>
-       </div>
+      <div className="navbar">
+        <h1 className="logo">L O G O</h1>
+        <ul className="nav-links">
+          <li className="nav-link">Home</li>
+          <li className="nav-link">About</li>
+          <li className="nav-link">Services</li>
+          <li className="nav-link">Contact</li>
+        </ul>
       </div>
     );
   }
